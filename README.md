@@ -30,10 +30,10 @@ CrawlerGuts is ON
   cg on|off           : [ >on< | off ]   - a crawler loses health for every block it drags itself after you
   cg dmg {hp}         : 1 health per block dragged
   cg floor {pct}      : never dragged below 10% of max health (a bleed can still kill)
-  cg bleed {pct}      : 10% chance per block to start bleeding, if not already
+  cg bleed {pct}      : 5% chance per block to start bleeding, if not already
   cg credit           : [ on | >off< ]   - drag damage and bleed count as your kill
   cg flavor fw        : [ >on< | off ]   - FletchWounds: a dragging crawler works your arrows deeper
-  cg arrow {pct}      : 10% chance per block to work a FletchWounds arrow deeper, if not bleeding
+  cg arrow {pct}      : 5% chance per block to work a FletchWounds arrow deeper, if not bleeding
 ```
 
 `cg on` and `cg off` are the master switch — with it off the tick hook returns immediately, so
@@ -99,10 +99,10 @@ All settable in-game, and all written back to the settings file as soon as you s
 |---|---|
 | damage per block | 1 HP |
 | never-kill floor | 10% of max health |
-| bleed chance per block | 10% |
+| bleed chance per block | 5% |
 | credit the chased player | off |
 | flavor with FletchWounds | on |
-| arrow chance per block | 10% (needs FletchWounds) |
+| arrow chance per block | 5% (needs FletchWounds) |
 
 ## Settings file
 
@@ -122,10 +122,10 @@ It is plain `key = value` text, one line per setting, each naming the command th
 enabled             = on       # cg on|off
 damage              = 1        # cg dmg {hp} - health per block dragged
 floor               = 10       # cg floor {pct} - percent of max health
-bleed               = 10       # cg bleed {pct} - chance per block, 0 = off
+bleed               = 5        # cg bleed {pct} - chance per block, 0 = off
 credit              = off      # cg credit
 flavor.fletchwounds = on       # cg flavor fw - interaction with FletchWounds
-arrow               = 10       # cg arrow {pct} - chance per block with a FletchWounds arrow in, 0 = off
+arrow               = 5        # cg arrow {pct} - chance per block with a FletchWounds arrow in, 0 = off
 ```
 
 Edit it by hand with the game closed — it is rewritten whenever a `cg` command changes something.

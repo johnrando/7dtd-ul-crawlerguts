@@ -29,7 +29,7 @@ namespace CrawlerGuts
 		/// crawler that is not already bleeding. 0 switches the bleed off. A bleed that is already
 		/// running - ours or a blade's - is never refreshed or stacked by this mod.
 		/// </summary>
-		internal static float BleedChance = 10f;
+		internal static float BleedChance = 5f;
 
 		/// <summary>
 		/// Credit drag damage and the bleed to the player being chased, so a crawler that dies of
@@ -49,6 +49,6 @@ namespace CrawlerGuts
 		/// Only a crawler that is not already bleeding is handed over, so no running bleed is ever
 		/// added to or refreshed. 0 switches it off. Needs FletchWounds and its flavor switch.
 		/// </summary>
-		internal static float ArrowBleedChance = 10f;
+		internal static float ArrowBleedChance = 5f;
 	}
 }
