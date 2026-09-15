@@ -135,7 +135,7 @@ back the defaults above (which live in `Settings.cs`).
 ## Undead Legacy
 
 **Not required** — the mod works fine on a plain install, and is built to sit alongside UL without
-modifying anything of UL's. Tested against **UL 2.7.32**. UL does not change crawler health, so the
+modifying anything of UL's. Tested against **UL 2.7.33**. UL does not change crawler health, so the
 defaults mean the same thing with and without it.
 
 **Rage.** UL rolls a chance to enrage a zombie on every bit of damage it takes, however small, and
