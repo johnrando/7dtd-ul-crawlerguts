@@ -9,7 +9,7 @@ player. Only the chase is paid for.
 
 ## Installing
 
-Download the zip from [Releases](https://github.com/johnrando/ul-crawlerguts/releases) and extract
+Download the zip from [Releases](https://github.com/johnrando/7dtd-ul-crawlerguts/releases) and extract
 it into the game's `Mods/`. The mod folder is the root of the archive, so it lands as:
 
 ```
@@ -135,7 +135,7 @@ back the defaults above (which live in `Settings.cs`).
 ## Undead Legacy
 
 **Not required** — the mod works fine on a plain install, and is built to sit alongside UL without
-modifying anything of UL's. Tested against **UL 2.7.35**. UL does not change crawler health, so the
+modifying anything of UL's. Tested against **UL 2.7.36**. UL does not change crawler health, so the
 defaults mean the same thing with and without it.
 
 **Rage.** UL rolls a chance to enrage a zombie on every bit of damage it takes, however small, and
