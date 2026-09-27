@@ -76,7 +76,7 @@ spider zombie is a different rig and is not affected.
 
 ## FletchWounds
 
-With [FletchWounds](../ul-fletchwounds) installed, a crawler dragging itself along with one of your
+With [FletchWounds](../7dtd-ul-fletchwounds) installed, a crawler dragging itself along with one of your
 arrows still stuck in it gets a **second, separate** `cg arrow` percent chance per block to work
 the arrowhead deeper. That is FletchWounds' own arrow effect, exactly as if you had pulled the
 arrow: its damage, its stab sound and its one stack of bleed, credited to you and tuned with `fw`.
